@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "za.co.autoinspect/sa-vehicle",
+  "title": "Auto Inspect — South African vehicle checks",
+  "description": "South African VIN, licence disc and number plate checks, roadworthy testing stations, report checks.",
+  "version": "1.0.0",
+  "websiteUrl": "https://autoinspect.co.za/api-docs/",
+  "icons": [
+    { "src": "https://autoinspect.co.za/assets/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"], "theme": "light" },
+    { "src": "https://autoinspect.co.za/assets/icon-192.png", "mimeType": "image/png", "sizes": ["192x192"], "theme": "light" }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://autoinspect.co.za/api/mcp/vehicle" }
+  ]
+}

@@ -1,0 +1,1 @@
+{ "mcpServers": { "autoinspect": { "type": "http", "url": "https://autoinspect.co.za/api/mcp/vehicle" } } }
