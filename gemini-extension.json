@@ -1,0 +1,11 @@
+{
+  "name": "autoinspect-sa-vehicle",
+  "version": "1.0.1",
+  "description": "South African vehicle checks: VIN check, licence disc status and late-renewal penalty, number plate province, roadworthy testing stations, report verification",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "autoinspect-sa-vehicle": {
+      "httpUrl": "https://autoinspect.co.za/api/mcp/vehicle"
+    }
+  }
+}
